@@ -17,7 +17,8 @@ use Illuminate\Http\Request;
 //    return $request->user();
 //});
 
-// Route::get('/profile', 'Api\v1\profileController@show');
+Route::get('/profile', 'Api\v1\profileController@show');
 
-Route::get('photographer/album', 'phtotgrapherController@readJson');
+Route::get('/photographer/album', 'photographerController@readJson');
+//Route::get('/photographer/album', 'Api\v1\profileController@show');
 

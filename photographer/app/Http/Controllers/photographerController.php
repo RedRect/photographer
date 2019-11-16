@@ -18,5 +18,6 @@ class photographerController extends Controller
         $json = json_decode($json,true);
 
         return $json;
+//        return ["abcd"];
     }
 }
